@@ -1,0 +1,640 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+  width: 100%;
+
+  color: white;
+  background-image: 
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 20px 20px;
+  background-color: #0f0f0f;
+  padding: 0 20px;
+}
+
+/*NAVBAR BITHC*/
+
+#nav{
+  width: 100%;
+  height: 100px;
+}
+
+.navbar{
+  
+  display: flex;
+  justify-content: space-between;
+  padding:30px 40px;
+}
+
+.navbar h4{
+font-family: neotriad;
+font-weight: 400;
+color: white;
+font-size: 3vw;
+}
+
+.navbar button{
+  color: white;
+ background-color: black;
+ border: 2px solid white;
+ border-radius: 30px;
+ width: 12%;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 700;
+ font-size: 1.2vw;
+}
+
+/*STARTING OF THE HERO PART*/
+
+#hero-text{
+  width: 100%;
+justify-items: center;
+/*background-color: crimson;*/
+}
+
+#hero-text h1{
+  font-family: neotriad;
+  font-weight: 200;
+font-size: 22vw;
+}
+
+/*ICON BOXES AND SHIT*/
+
+.hero-boxes{
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+#box1{
+justify-items: center;
+  /*background-color: crimson;*/
+  width: 35%;
+}
+
+#box1 i{
+ 
+color: green;
+ padding-left: 16vw;
+font-size: 1.5vw;
+}
+
+#box1 h4{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#box1 h5{
+color: gray;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#box2{
+justify-items: center;
+  /*background-color: crimson;*/
+  width: 35%;
+}
+
+#box2 i{
+   padding-left: 16vw;
+font-size: 1.5vw;
+}
+
+#box2 h4{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#box2 h5{
+color: gray;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#box3{
+justify-items: center;
+  /*background-color: crimson;*/
+  width: 35%;
+}
+
+#box3 i{
+   padding-left: 16vw;
+font-size: 1.5vw;
+color: rgb(0, 119, 158);
+}
+
+#box3 h4{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#box3 h5{
+color: gray;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/*BIGASS IMAGE*/
+
+.theimg{
+  margin-top: 50px;
+  width: 100%;
+display: flex;
+  justify-content: center;
+  /*background-color: crimson;*/
+
+}
+
+.theimg img{
+  width: 80%;
+height: 700px;
+  border-radius: 20px;
+
+}
+
+/*ABOUT*/
+
+#About{
+  width: 100%;
+  /*background-color: rgb(120, 140, 255);*/
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.Appro{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Appro h4{
+font-family: Arial, Helvetica, sans-serif;
+}
+#phase {
+  color: gray;
+}
+
+/*ABOUT TEXT START*/
+
+#hero-text2{
+  margin-top: 110px;
+  width: 100%;
+justify-items: center;
+text-align: center;
+/*background-color: crimson;*/
+}
+
+#hero-text2 h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+font-size: 6vw;
+line-height: 90px;
+}
+
+#hero-text2 p{
+  margin-top:40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 400;
+  color: gray;
+}
+
+/*NUMBERS WITH CIRCLE AND ALL THAT SHIT*/
+
+
+/*LATEST PORTFOLIO*/
+#portfolio{
+  width: 100%;
+  /*background-color: rgb(120, 140, 255);*/
+  margin-top: 150px;
+}
+
+.port{
+  display: flex;
+  justify-content: space-between;
+}
+
+.port h4{
+font-family: Arial, Helvetica, sans-serif;
+}
+#phase2 {
+  color: gray;
+}
+
+
+
+/*dress*/
+#dressvid{
+  width: 100%;
+  height: 8%;
+
+margin-top: 30px;
+justify-self: end;
+
+}
+
+#dressvid img{
+width: 60vw;
+height: 60vh;
+
+}
+
+
+/*ABOUT THE CEO*/
+
+#portfoliome{
+  width: 100%;
+  /*background-color: rgb(120, 140, 255);*/
+  margin-top: 50px;
+}
+
+.port2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.port2 h4{
+font-family: Arial, Helvetica, sans-serif;
+}
+#phase4 {
+  color: gray;
+}
+
+/*heading*/
+#heading{
+  width: 100%;
+text-align: center;
+margin-top: 50px;
+}
+
+#heading h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size:2.5vw;
+  line-height: 50px;
+}
+
+.me{
+  width: 100%;
+margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.me img{
+  width: 30vw;
+  height: 70vh;
+border-radius: 10px;
+}
+
+.parapart{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+    justify-content: center;
+}
+
+.parapart h4{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+font-size: 2vw;
+
+}
+
+
+.parapart p{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 200;
+font-size: 1vw;
+color: gray;
+margin-top: 20px;
+}
+
+#portfoliome5{
+  width: 100%;
+  /*background-color: rgb(120, 140, 255);*/
+  margin-top: 90px;
+}
+
+.port5{
+  display: flex;
+  justify-content: space-between;
+}
+
+.port5 h4{
+font-family: Arial, Helvetica, sans-serif;
+}
+#phase5 {
+  color: gray;
+}
+
+
+
+@media (max-width:600px) {
+  /*NAVBAR BITHC*/
+
+/*ICON BOXES AND SHIT*/
+
+.hero-boxes{
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+#box1{
+justify-items: center;
+  /*background-color: crimson;*/
+  width: 35%;
+}
+
+#box1 i{
+ 
+color: green;
+ padding-left: 16vw;
+font-size: 5vw;
+}
+
+#box1 h4{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#box1 h5{
+color: gray;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#box2{
+justify-items: center;
+  /*background-color: crimson;*/
+  width: 35%;
+}
+
+#box2 i{
+   padding-left: 16vw;
+font-size: 5vw;
+}
+
+#box2 h4{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#box2 h5{
+color: gray;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#box3{
+justify-items: center;
+  /*background-color: crimson;*/
+  width: 35%;
+}
+
+#box3 i{
+   padding-left: 16vw;
+font-size: 5vw;
+color: rgb(0, 119, 158);
+}
+
+#box3 h4{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#box3 h5{
+color: gray;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#nav{
+  width: 100%;
+  height: 100px;
+}
+
+.navbar{
+  
+  display: flex;
+  justify-content: space-between;
+  padding:30px 40px;
+}
+
+.navbar h4{
+font-family: neotriad;
+font-weight: 800;
+color: white;
+font-size: 5vw;
+}
+
+.navbar button{
+  color: white;
+ background-color: black;
+ border: 2px solid white;
+ border-radius: 30px;
+ width: 45%;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 700;
+ font-size: 4vw;
+}
+
+/*STARTING OF THE HERO PART*/
+
+#hero-text{
+  width: 100%;
+justify-items: center;
+/*background-color: crimson;*/
+}
+
+#hero-text h1{
+  font-family: neotriad;
+  font-weight: 200;
+font-size: 17vw;
+}
+
+
+
+
+/*BIGASS IMAGE*/
+
+.theimg{
+  margin-top: 50px;
+  width: 100%;
+display: flex;
+  justify-content: center;
+  /*background-color: crimson;*/
+
+}
+
+.theimg img{
+  width: 80%;
+height: 200px;
+  border-radius: 20px;
+
+}
+
+
+/*ABOUT TEXT START*/
+
+#hero-text2{
+  margin-top: 20px;
+  width: 100%;
+justify-items: center;
+text-align: center;
+/*background-color: crimson;*/
+}
+
+#hero-text2 h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+font-size: 6vw;
+line-height: 30px;
+}
+
+#hero-text2 p{
+  margin-top:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 400;
+  color: gray;
+}
+
+
+/*ABOUT THE CEO*/
+
+#portfoliome{
+  width: 100%;
+  /*background-color: rgb(120, 140, 255);*/
+  margin-top: 50px;
+}
+
+.port2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.port2 h4{
+font-family: Arial, Helvetica, sans-serif;
+}
+#phase4 {
+  color: gray;
+}
+
+/*dress*/
+#dressvid{
+  width: 100%;
+
+display: flex;
+justify-content: center;
+
+
+
+}
+
+#dressvid img{
+width: 100vw;
+height: 30vh;
+
+}
+
+
+
+/*ABOUT THE CEO*/
+
+#portfoliome{
+  width: 100%;
+  /*background-color: rgb(120, 140, 255);*/
+  margin-top: 90px;
+}
+
+.port2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.port2 h4{
+font-family: Arial, Helvetica, sans-serif;
+}
+#phase4 {
+  color: gray;
+}
+
+/*heading*/
+#heading{
+  width: 100%;
+text-align: center;
+margin-top: 50px;
+}
+
+#heading h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size:5vw;
+  line-height: 25px;
+}
+
+.me{
+  width: 100%;
+margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.me img{
+  width: 70vw;
+  height: 50vh;
+border-radius: 10px;
+}
+
+.parapart{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+    justify-content: center;
+}
+
+.parapart h4{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+font-size: 7vw;
+
+}
+
+
+.parapart p{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 200;
+font-size: 4vw;
+color: gray;
+margin-top: 20px;
+}
+
+#portfoliome5{
+  width: 100%;
+  /*background-color: rgb(120, 140, 255);*/
+  margin-top: 90px;
+}
+
+.port5{
+  display: flex;
+  justify-content: space-between;
+}
+
+.port5 h4{
+font-family: Arial, Helvetica, sans-serif;
+}
+#phase5 {
+  color: gray;
+}
+}
